@@ -1,4 +1,3 @@
-prototype(Ttree.Script:ScriptTag) >
 prototype(Ttree.Script:ScriptTag) < prototype(TypoScript:Tag) {
     @context.path = ${this.path}
     tagName = 'script'
