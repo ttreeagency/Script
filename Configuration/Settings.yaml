@@ -2,4 +2,4 @@ TYPO3:
   Neos:
     typoScript:
       autoInclude:
-        'Neos.MarketPlace': TRUE
+        'Ttree.Script': TRUE
