@@ -1,0 +1,20 @@
+{
+  "name": "ttree/script",
+  "type": "typo3-flow-package",
+  "license": "MIT",
+  "description": "TypoScript objects to generate a script tag",
+  "keywords": [
+    "typoscript",
+    "script",
+    "javascript",
+    "asset"
+  ],
+  "require": {
+    "typo3/typoscript": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ttree\\Script\\": "Classes"
+    }
+  }
+}

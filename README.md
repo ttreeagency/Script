@@ -1,0 +1,26 @@
+[![BSD License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+[![Latest Stable Version](https://poser.pugx.org/ttree/script/version)](https://packagist.org/packages/ttree/script)
+
+# Script TS Objects
+
+This package contains TypoScript objects to work with Script HTML tags in your Flow Framework and Neos CMS project.
+
+## Available Objects
+
+### Ttree.StyleSheet:StyleSheetTag
+
+Generate a HTML script element in HTML5:
+
+    stylesheets.main = Ttree.Script:ScriptTag {
+        path = 'resource://Your.Package/Public/Scripts/Main.js'
+    }
+
+## Acknowledgments
+
+Development sponsored by [ttree ltd - neos solution provider](http://ttree.ch).
+
+We try our best to craft this package with a lots of love, we are open to sponsoring, support request, ... just contact us.
+
+## License
+
+The MIT License (MIT). Please see [LICENSE](LICENSE) for more information.

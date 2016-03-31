@@ -1,0 +1,10 @@
+prototype(Ttree.Script:ScriptTag) >
+prototype(Ttree.Script:ScriptTag) < prototype(TypoScript:Tag) {
+    @context.path = ${this.path}
+    tagName = 'script'
+    attributes {
+        src = TypoScript:ResourceUri {
+            path = ${path}
+        }
+    }
+}
