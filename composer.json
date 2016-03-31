@@ -16,5 +16,10 @@
     "psr-4": {
       "Ttree\\Script\\": "Classes"
     }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "Ttree.Script"
+    }
   }
 }
