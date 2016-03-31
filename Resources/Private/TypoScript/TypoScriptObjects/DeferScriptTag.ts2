@@ -1,0 +1,10 @@
+prototype(Ttree.Script:DeferScriptTag) < prototype(TypoScript:Tag) {
+    @context.path = ${this.path}
+    tagName = 'script'
+    attributes {
+        defer = 'defer'
+        src = TypoScript:ResourceUri {
+            path = ${path}
+        }
+    }
+}
