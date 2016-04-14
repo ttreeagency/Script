@@ -7,12 +7,20 @@ This package contains TypoScript objects to work with Script HTML tags in your F
 
 ## Available Objects
 
-### Ttree.StyleSheet:StyleSheetTag
+### Ttree.StyleSheet:Resource
 
 Generate a HTML script element in HTML5:
 
-    stylesheets.main = Ttree.Script:ScriptTag {
-        path = 'resource://Your.Package/Public/Scripts/Main.js'
+    stylesheets.main = Ttree.Script:Resource {
+        uri = 'resource://Your.Package/Public/Scripts/Main.js'
+    }
+
+### Ttree.StyleSheet:External
+
+Generate a HTML script element in HTML5:
+
+    stylesheets.main = Ttree.Script:External {
+        uri = 'http://www.domain.com/main.js'
     }
 
 ## Acknowledgments

@@ -1,0 +1,11 @@
+prototype(Ttree.Script:Resource) < prototype(TypoScript:Tag) {
+    @context.uri = ${this.uri}
+    @context.defer = ${this.defer ? true : false}
+    tagName = 'script'
+    attributes {
+        defer = ${defer ? 'defer' : null}
+        src = TypoScript:ResourceUri {
+            path = ${uri}
+        }
+    }
+}

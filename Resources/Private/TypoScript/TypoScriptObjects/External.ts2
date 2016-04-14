@@ -1,0 +1,9 @@
+prototype(Ttree.Script:External) < prototype(TypoScript:Tag) {
+    @context.uri = ${this.uri}
+    @context.defer = ${this.defer ? true : false}
+    tagName = 'script'
+    attributes {
+        defer = ${defer ? 'defer' : null}
+        src = ${uri}
+    }
+}
