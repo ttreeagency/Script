@@ -10,7 +10,7 @@
     "asset"
   ],
   "require": {
-    "typo3/typoscript": "*"
+    "typo3/neos": "*"
   },
   "autoload": {
     "psr-4": {
