@@ -1,9 +1,9 @@
 [![BSD License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 [![Latest Stable Version](https://poser.pugx.org/ttree/script/version)](https://packagist.org/packages/ttree/script)
 
-# Script TS Objects
+# Script Fusion Objects
 
-This package contains TypoScript objects to work with Script HTML tags in your Flow Framework and Neos CMS project.
+This package contains Fusion objects to work with Script HTML tags in your Flow Framework and Neos CMS project.
 
 ## Available Objects
 

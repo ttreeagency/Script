@@ -1,16 +1,16 @@
 {
   "name": "ttree/script",
-  "type": "typo3-flow-package",
+  "type": "neos-package",
   "license": "MIT",
-  "description": "TypoScript objects to generate a script tag",
+  "description": "Fusion objects to generate a script tag",
   "keywords": [
-    "typoscript",
+    "fusion",
     "script",
     "javascript",
     "asset"
   ],
   "require": {
-    "typo3/neos": "*"
+    "neos/neos": "*"
   },
   "autoload": {
     "psr-4": {

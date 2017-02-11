@@ -1,3 +1,0 @@
-namespace: TypoScript=TYPO3.TypoScript
-
-include: TypoScriptObjects/*
