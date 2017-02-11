@@ -1,5 +1,5 @@
-TYPO3:
+Neos:
   Neos:
-    typoScript:
+    fusion:
       autoInclude:
         'Ttree.Script': TRUE
