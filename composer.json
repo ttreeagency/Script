@@ -1,25 +1,28 @@
 {
-  "name": "ttree/script",
-  "type": "typo3-flow-package",
-  "license": "MIT",
-  "description": "TypoScript objects to generate a script tag",
-  "keywords": [
-    "typoscript",
-    "script",
-    "javascript",
-    "asset"
-  ],
-  "require": {
-    "typo3/neos": "*"
-  },
-  "autoload": {
-    "psr-4": {
-      "Ttree\\Script\\": "Classes"
+    "name": "ttree/script",
+    "type": "typo3-flow-package",
+    "license": "MIT",
+    "description": "TypoScript objects to generate a script tag",
+    "keywords": [
+        "typoscript",
+        "script",
+        "javascript",
+        "asset"
+    ],
+    "require": {
+        "typo3/neos": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\Script\\": "Classes"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.Script"
+        },
+        "applied-flow-migrations": [
+            "TYPO3.FLOW3-201201261636"
+        ]
     }
-  },
-  "extra": {
-    "neos": {
-      "package-key": "Ttree.Script"
-    }
-  }
 }
