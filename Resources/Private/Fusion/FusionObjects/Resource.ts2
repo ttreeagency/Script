@@ -1,11 +1,21 @@
 prototype(Ttree.Script:Resource) < prototype(Fusion:Tag) {
     @context.uri = ${this.uri}
     @context.defer = ${this.defer ? true : false}
+
     tagName = 'script'
+
+    cacheBusting = true
+    @context.cacheBusting = ${this.cacheBusting}
+
     attributes {
+        @context.hash = Ttree.Fusion.HashFile:Process {
+            resource = ${uri}
+        }
+
         defer = ${defer ? 'defer' : null}
         src = Fusion:ResourceUri {
             path = ${uri}
+            @process.cacheBusting = ${cacheBusting ? value + '?' + hash : value}
         }
     }
 }

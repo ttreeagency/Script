@@ -13,7 +13,10 @@ Generate a HTML script element in HTML5:
 
     stylesheets.main = Ttree.Script:Resource {
         uri = 'resource://Your.Package/Public/Scripts/Main.js'
+        cacheBusting = true
     }
+
+You can disable HTTP cache busting by setting ```cacheBusting``` to ```false```.
 
 ### Ttree.StyleSheet:External
 
