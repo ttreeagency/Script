@@ -7,7 +7,7 @@ This package contains TypoScript objects to work with Script HTML tags in your F
 
 ## Available Objects
 
-### Ttree.StyleSheet:Resource
+### Ttree.Script:Resource
 
 Generate a HTML script element in HTML5:
 
@@ -18,7 +18,7 @@ Generate a HTML script element in HTML5:
 
 You can disable HTTP cache busting by setting ```cacheBusting``` to ```false```.
 
-### Ttree.StyleSheet:External
+### Ttree.Script:External
 
 Generate a HTML script element in HTML5:
 
