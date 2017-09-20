@@ -4,6 +4,9 @@ prototype(Ttree.Script:Resource) < prototype(Fusion:Tag) {
 
     tagName = 'script'
 
+	inline = false
+	@context.inline = ${this.inline}
+
     cacheBusting = true
     @context.cacheBusting = ${this.cacheBusting}
 
@@ -13,9 +16,15 @@ prototype(Ttree.Script:Resource) < prototype(Fusion:Tag) {
         }
 
         defer = ${defer ? 'defer' : null}
-        src = Fusion:ResourceUri {
+
+		src = Fusion:ResourceUri {
             path = ${uri}
             @process.cacheBusting = ${cacheBusting ? value + '?' + hash : value}
         }
+
+		@if.notInline = ${inline != true}
     }
+
+	content = ${FileReader.get(uri)}
+	content.@if.inline = ${inline == true}
 }

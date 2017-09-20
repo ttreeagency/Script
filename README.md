@@ -18,6 +18,8 @@ Generate a HTML script element in HTML5:
 
 You can disable HTTP cache busting by setting ```cacheBusting``` to ```false```.
 
+Set ```inline``` to ```true``` to inline the content of the resource.
+
 ### Ttree.Script:External
 
 Generate a HTML script element in HTML5:
