@@ -1,11 +1,11 @@
 {
     "name": "ttree/script",
-    "type": "typo3-flow-package",
+    "type": "neos-package",
     "license": "MIT",
     "description": "Fusion objects to generate a script tag",
     "keywords": [
-	"neoscms",
-	"flow-framework",
+        "neoscms",
+        "flow-framework",
         "fusion",
         "script",
         "javascript",
