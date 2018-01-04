@@ -24,7 +24,7 @@ Set ```inline``` to ```true``` to inline the content of the resource.
 
 Generate a HTML script element in HTML5:
 
-    stylesheets.main = Ttree.Script:External {
+    javascripts.main = Ttree.Script:External {
         uri = 'http://www.domain.com/main.js'
     }
 
